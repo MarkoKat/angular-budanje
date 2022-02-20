@@ -1,0 +1,106 @@
+<div class="background">
+  <img src="/assets/BudanjePpt.svg" class="community-image" />
+</div>
+<div class="house1-container">
+  <div class="graph">
+    <div class="bars">
+      <div [ngStyle]="{ height: house1Cur.gridHeight }" class="bar grid"></div>
+      <div
+        [ngStyle]="{ height: house1Cur.toGridHeight }"
+        class="bar to-grid"
+      ></div>
+      <div
+        [ngStyle]="{ height: house1Cur.solarHeight }"
+        class="bar solar"
+      ></div>
+    </div>
+    <div class="legend">
+      <div>From Grid</div>
+      <div>To Grid</div>
+      <div>Solar</div>
+    </div>
+  </div>
+
+  <div>
+    <img src="/assets/house-small-front.svg" class="house1" />
+  </div>
+</div>
+
+<div class="house2-container">
+  <div class="graph">
+    <div class="bars">
+      <div [ngStyle]="{ height: house2Cur.gridHeight }" class="bar grid"></div>
+      <div
+        [ngStyle]="{ height: house2Cur.toGridHeight }"
+        class="bar to-grid"
+      ></div>
+      <div
+        [ngStyle]="{ height: house2Cur.solarHeight }"
+        class="bar solar"
+      ></div>
+    </div>
+    <div class="legend">
+      <div>From Grid</div>
+      <div>To Grid</div>
+      <div>Solar</div>
+    </div>
+  </div>
+
+  <div>
+    <img src="/assets/house-front.svg" class="house1" />
+  </div>
+</div>
+
+<div class="house3-container">
+  <div class="graph">
+    <div class="bars">
+      <div [ngStyle]="{ height: house3Cur.gridHeight }" class="bar grid"></div>
+      <div
+        [ngStyle]="{ height: house3Cur.toGridHeight }"
+        class="bar to-grid"
+      ></div>
+      <div
+        [ngStyle]="{ height: house3Cur.solarHeight }"
+        class="bar solar"
+      ></div>
+    </div>
+    <div class="legend">
+      <div>From Grid</div>
+      <div>To Grid</div>
+      <div>Solar</div>
+    </div>
+  </div>
+
+  <div>
+    <img src="/assets/house-03.svg" class="house1" />
+  </div>
+</div>
+
+<div class="house4-container">
+  <div class="graph">
+    <div class="bars">
+      <div [ngStyle]="{ height: house4Cur.gridHeight }" class="bar grid"></div>
+      <div
+        [ngStyle]="{ height: house4Cur.toGridHeight }"
+        class="bar to-grid"
+      ></div>
+      <div
+        [ngStyle]="{ height: house4Cur.solarHeight }"
+        class="bar solar"
+      ></div>
+    </div>
+    <div class="legend">
+      <div>From Grid</div>
+      <div>To Grid</div>
+      <div>Solar</div>
+    </div>
+  </div>
+
+  <div>
+    <img src="/assets/building-jp-17.svg" class="house1" />
+  </div>
+</div>
+
+<div class="time">
+  {{ time }}
+</div>

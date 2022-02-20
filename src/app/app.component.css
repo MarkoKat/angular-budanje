@@ -1,0 +1,141 @@
+p {
+  font-family: Lato;
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+.community-image {
+  width: 100%;
+  height: 100%;
+}
+
+.house1-container {
+  position: absolute;
+  width: 25%;
+  height: 80%;
+  left: 10%;
+  top: 5%;
+  /*border: 1px solid green;*/
+}
+
+.house2-container {
+  position: absolute;
+  width: 25%;
+  height: 80%;
+  left: 35%;
+  top: -5%;
+  /*border: 1px solid green;*/
+}
+
+.house3-container {
+  position: absolute;
+  width: 25%;
+  height: 80%;
+  left: 57%;
+  /*border: 1px solid green;*/
+}
+
+.house4-container {
+  position: absolute;
+  width: 25%;
+  height: 80%;
+  left: 72%;
+  top: 23%;
+  /*border: 1px solid green;*/
+}
+
+.graph {
+  position: absolute;
+  height: 25%;
+  width: 70%;
+  margin: 15%;
+
+  background-color: rgba(100, 100, 100, 0.5);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+}
+
+.bars {
+  height: 70%;
+  width: 90%;
+  padding: 5%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.bar {
+  width: 100%;
+}
+
+.grid {
+  background-color: orange;
+  transition: height 500ms;
+  border-radius: 5px;
+}
+
+.to-grid {
+  background-color: rgb(76, 138, 255);
+  transition: height 500ms;
+  border-radius: 5px;
+}
+
+.solar {
+  background-color: rgb(106, 206, 106);
+  transition: height 500ms;
+  border-radius: 5px;
+}
+
+.legend {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  font-size: 1.1vw;
+  margin-top: -4.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 10%;
+}
+
+.house1 {
+  position: absolute;
+  height: 50%;
+  width: 90%;
+  top: 40%;
+  margin: 5%;
+  visibility: hidden;
+}
+
+.time {
+  height: 60px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.7vw;
+}
+
+.timeline {
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.timeline-el {
+  width: 5%;
+  background-color: blue;
+  transition: height 100ms;
+}
